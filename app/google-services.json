@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "124231136597",
+    "project_id": "password-manager-46493",
+    "storage_bucket": "password-manager-46493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124231136597:android:bf648a925d981d0f4cebdc",
+        "android_client_info": {
+          "package_name": "com.summer.passwordcompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124231136597-1mh2iklvqktg9csgr3r4p36p55ll89qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB51Gl1SInL5V096HTs_lJ2Rc1SOlSk9QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124231136597-1mh2iklvqktg9csgr3r4p36p55ll89qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124231136597:android:fccccb407d5a1c154cebdc",
+        "android_client_info": {
+          "package_name": "com.summer.passwordmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124231136597-1mh2iklvqktg9csgr3r4p36p55ll89qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB51Gl1SInL5V096HTs_lJ2Rc1SOlSk9QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124231136597-1mh2iklvqktg9csgr3r4p36p55ll89qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124231136597:android:df82f5d8bab6333c4cebdc",
+        "android_client_info": {
+          "package_name": "com.summer.smsretriever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124231136597-1mh2iklvqktg9csgr3r4p36p55ll89qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB51Gl1SInL5V096HTs_lJ2Rc1SOlSk9QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124231136597-1mh2iklvqktg9csgr3r4p36p55ll89qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
