@@ -8,7 +8,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 // Set of Material typography styles to start with
-val Typography = Typography(
+val typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = robotoFamily,
         fontWeight = FontWeight.Normal,
@@ -34,21 +34,21 @@ val Typography = Typography(
     ),
 
     titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 22.sp,
         lineHeight = 28.sp,
         letterSpacing = 0.7.sp
     ),
     titleMedium = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 20.sp,
         lineHeight = 26.sp,
         letterSpacing = 0.7.sp
     ),
     titleSmall = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 18.sp,
         lineHeight = 24.sp,
@@ -57,21 +57,21 @@ val Typography = Typography(
 
 
     labelLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 18.sp,
         lineHeight = 20.sp,
         letterSpacing = 0.6.sp
     ),
     labelMedium = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 16.sp,
         lineHeight = 18.sp,
         letterSpacing = 0.6.sp
     ),
     labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 14.sp,
         lineHeight = 16.sp,
@@ -79,21 +79,21 @@ val Typography = Typography(
     ),
 
     headlineLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 24.sp,
         lineHeight = 28.sp,
         letterSpacing = 0.8.sp
     ),
     headlineMedium = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 22.sp,
         lineHeight = 26.sp,
         letterSpacing = 0.8.sp
     ),
     headlineSmall = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = robotoFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 22.sp,
         lineHeight = 24.sp,

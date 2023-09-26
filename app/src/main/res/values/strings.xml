@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PasswordCompose</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="create_your_account_to_continue">Create your account to continue</string>
+    <string name="name">Name</string>
+    <string name="next">Next</string>
 </resources>

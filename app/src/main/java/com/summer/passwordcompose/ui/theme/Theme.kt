@@ -18,13 +18,15 @@ import androidx.core.view.WindowCompat
 private val darkColorScheme = darkColorScheme(
     primary = Purple80,
     secondary = PurpleGrey80,
-    tertiary = Pink80
+    tertiary = Pink80,
+    background = Black
 )
 
 private val lightColorScheme = lightColorScheme(
     primary = Purple40,
     secondary = PurpleGrey40,
-    tertiary = Pink40
+    tertiary = Pink40,
+    background = White
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -49,22 +51,27 @@ fun PasswordComposeTheme(
             val context = LocalContext.current
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
-
         darkTheme -> darkColorScheme
         else -> lightColorScheme
     }
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
-            val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.primary.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
+            val activity = view.context as Activity
+            activity.window.statusBarColor = colorScheme.background.toArgb()
+            activity.window.navigationBarColor = colorScheme.background.toArgb()
+            WindowCompat.getInsetsController(activity.window, view).isAppearanceLightStatusBars =
+                !darkTheme
+            WindowCompat.getInsetsController(
+                activity.window,
+                view
+            ).isAppearanceLightNavigationBars = !darkTheme
         }
     }
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = typography,
         content = content
     )
 }

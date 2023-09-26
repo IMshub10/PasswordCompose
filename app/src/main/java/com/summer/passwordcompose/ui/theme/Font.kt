@@ -71,5 +71,5 @@ val robotoFamily = FontFamily(
             weight = FontWeight.Thin,
             style = FontStyle.Italic
         )
-    ),
+    )
 )
