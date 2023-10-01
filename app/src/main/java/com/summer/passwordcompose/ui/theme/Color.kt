@@ -2,13 +2,13 @@ package com.summer.passwordcompose.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0bcff)
-val PurpleGrey80 = Color(0xFFccc2dc)
-val Pink80 = Color(0xFFefb8c8)
-
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7d5260)
+//val Purple80 = Color(0xFFD0bcff)
+//val PurpleGrey80 = Color(0xFFccc2dc)
+//val Pink80 = Color(0xFFefb8c8)
+//
+//val Purple40 = Color(0xFF6650a4)
+//val PurpleGrey40 = Color(0xFF625b71)
+//val Pink40 = Color(0xFF7d5260)
 
 val BlackDark = Color(0xFF000000)
 val WhiteDark = Color(0xFFffffff)
