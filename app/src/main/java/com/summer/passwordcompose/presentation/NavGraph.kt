@@ -9,8 +9,11 @@ import androidx.compose.ui.platform.SoftwareKeyboardController
 import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.composable
 import com.summer.passwordcompose.presentation.navigation.BottomNavItem
+import com.summer.passwordcompose.presentation.screens.PassGeneratorScreen
+import com.summer.passwordcompose.presentation.screens.ProfileScreen
 import com.summer.passwordcompose.presentation.screens.SetPinScreen
 import com.summer.passwordcompose.presentation.screens.SignUpScreen
+import com.summer.passwordcompose.presentation.screens.VaultScreen
 
 @OptIn(ExperimentalComposeUiApi::class, ExperimentalAnimationApi::class)
 @Composable
@@ -46,17 +49,20 @@ fun NavGraph(
         composable(
             BottomNavItem.Vault.fullRoute,
         ) {
-            SignUpScreen(navController = navController, keyboardController = keyboardController)
+            VaultScreen(navController = navController, keyboardController = keyboardController)
         }
         composable(
             BottomNavItem.Generator.fullRoute,
         ) {
-            SignUpScreen(navController = navController, keyboardController = keyboardController)
+            PassGeneratorScreen(
+                navController = navController,
+                keyboardController = keyboardController
+            )
         }
         composable(
             BottomNavItem.Profile.fullRoute,
         ) {
-            SignUpScreen(navController = navController, keyboardController = keyboardController)
+            ProfileScreen(navController = navController, keyboardController = keyboardController)
         }
     }
 }
