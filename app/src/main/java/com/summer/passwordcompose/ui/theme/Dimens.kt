@@ -13,6 +13,8 @@ val spacingMedium = 24.dp
 val spacingLarge = 32.dp
 val spacingXLarge = 40.dp
 val spacingHuge = 64.dp
+
+val spacingPinView = 48.dp
 //endregion
 
 //region Icon Size
