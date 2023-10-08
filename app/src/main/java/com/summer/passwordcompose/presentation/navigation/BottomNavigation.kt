@@ -82,8 +82,8 @@ fun BottomNavigation(
                         }
                     }
                 )
+                Spacer(Modifier.weight(1f, true))
             }
-            Spacer(Modifier.weight(1f, true))
             /*if (currentRoute == BottomNavItem.UserList.screen_route) {
                 var showAlertDialog by remember {
                     mutableStateOf(false)

@@ -87,7 +87,7 @@ fun TextImageButton(
 
 @DarkLightPreviews
 @Composable
-fun GreetingPreview() {
+fun ButtonPreview() {
     PasswordComposeTheme {
         TextImageButton(
             "Reset", Modifier

@@ -20,6 +20,15 @@ sealed class BottomNavItem(
         val fullRoute = screen_route + arguments
     }
 
+    object SetPin : BottomNavItem(
+        "SetPin",
+        Icons.Filled.Person,
+        "set_pin",
+        ""
+    ) {
+        val fullRoute = screen_route + arguments
+    }
+
     object Vault : BottomNavItem(
         "Vault",
         Icons.Filled.Person,

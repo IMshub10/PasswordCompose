@@ -6,4 +6,8 @@
     <string name="name">Name</string>
     <string name="next">Next</string>
     <string name="mobile">Mobile Number</string>
+    <string name="set_pin">Set Pin</string>
+    <string name="please_set_your_pin">Please set your pin for security</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="re_enter_pin">Re-enter Pin</string>
 </resources>
